@@ -12,7 +12,7 @@ body {
 }
 .links {
     overflow: hidden;
-    height: 70px;
+    height: 60px;
 }
 
 nav ul {
@@ -71,18 +71,22 @@ header h1 {
 .head {
     display: flex;
     width: 25%;
+    font-size: 40px;
 }
 
 section p {
-    height: 100px;
-    border: 5px solid tomato;
+    height: 500px;
+;
     border-radius: 5px;
     float:right;
+    width: 75%;
+    
 }
 
 .AM {
     display: flex;
-
+    background-color: grey;
+    padding: none;
 }
 .websites {
     display: flex;
