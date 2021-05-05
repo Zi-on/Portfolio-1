@@ -36,9 +36,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: red;
     color: black;
-    padding: 7px;
+    
 }
 
 header {
