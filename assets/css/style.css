@@ -115,6 +115,7 @@ header h1 {
 }
 .websites {
     display: flex;
+    background-color: cornflowerblue;
 
 }
 
@@ -124,6 +125,7 @@ header h1 {
      width: 100%;
      justify-content: space-around;
      flex-wrap: wrap;
+     flex-direction: row;
  }
 
  footer {
