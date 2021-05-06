@@ -48,7 +48,6 @@ nav a:hover {
     background-image: url("../../assets/images/header.jpg"); 
     display: flex;
     align-items: center;
-    justify-content: space-between;
     background-position: bottom;
     background-size: cover;
     font-family: 'Morga'
@@ -144,13 +143,14 @@ header h1 {
      display: flex;
      justify-content: space-between;
      padding: 20px;
-     margin-right: 20px;
+     margin-right: 20px;                          
      
  }
  .contacts a {
      color: black;
      
  }
+                                                                                                                                  
 
  @media screen and (max-width: 768px) {
      .AM, .websites, footer {
@@ -160,10 +160,39 @@ header h1 {
      .head {
          border-bottom: 3px black solid;
          border-right: none;
-         text-align: center;
+         min-width: 100%;
+        
+     } 
+     header {
          width: 100%;
      }
-     .main-header {
+     .main-header h1 {
          text-align: center;
+         
      }
+     .links ul {
+         flex-direction: column;
+         padding: 0;
+         margin-bottom: 5px;
+     }
+     .contacts {
+         width: 100%;
+     }
+    .contacts ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    #About-Me {
+        text-align: center;
+        width: 100%;
+    }
+    #work {
+        text-align: center;
+        width: 100%;
+    }
+    #contact-me {
+        text-align: center;
+        width: 100%;
+    }
+
  }
