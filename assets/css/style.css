@@ -185,6 +185,9 @@ nav a:hover, .contacts a:hover {
 /*moble optimization*/                                                                                                                            
 
  @media screen and (max-width: 768px) {
+     * {
+         width: 100%;
+     }
      .main-header {
          justify-content: center;
      }
