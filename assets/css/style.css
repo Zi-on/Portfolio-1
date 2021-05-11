@@ -207,6 +207,11 @@ nav a:hover, .contacts a:hover {
      }
      .bio{
          width: 100%;
+         ;
+     }
+     .bio p {
+         height: fit-content;
+         justify-content: space-between;
      }
      .head-1, .head-2 {
          border-bottom: 3px black solid;
