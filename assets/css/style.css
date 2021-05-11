@@ -199,11 +199,14 @@ nav a:hover, .contacts a:hover {
      .AM {
          flex-direction: column;
          align-items: center;
+         justify-content: space-between
+         ;
     
      }
      .bio img {
          height: 40vh;
          width: 40vh;
+         justify-content: space-between;
      }
      .bio{
          width: 100%;
@@ -211,7 +214,7 @@ nav a:hover, .contacts a:hover {
      }
      .bio p {
          height: fit-content;
-         justify-content: space-between;
+         
      }
      .head-1, .head-2 {
          border-bottom: 3px black solid;
@@ -267,5 +270,12 @@ nav a:hover, .contacts a:hover {
     footer {
         height: 15vh;
         
+    }
+    .box-container {
+        display: flex;
+        
+    }
+    .box {
+        justify-content: space-between;
     }
  } 
